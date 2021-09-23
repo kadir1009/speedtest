@@ -9,7 +9,7 @@ class Bot():
 
         self.inner_bot = None
 
-        self.token = 2037914959:AAGKtCIGkTC6Whwj0wEZROPui86Tgk3_vsU
+        self.token = token
         self.channel = channel
 
         self.main()
