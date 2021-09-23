@@ -9,7 +9,7 @@ class Bot():
 
         self.inner_bot = None
 
-        self.token = token
+        self.token = 2037914959:AAGKtCIGkTC6Whwj0wEZROPui86Tgk3_vsU
         self.channel = channel
 
         self.main()
@@ -37,7 +37,7 @@ class Bot():
         self.inner_bot.sendMessage(chat_id=self.channel, text=text)
 
     def send_hello_message(self):
-        text = '👋 Hi, I\'m happy to report speedtest measurements!'
+        text = '👋 Merhaba, I\'m happy to report speedtest measurements!'
         self.send_message_to_channel(text)
 
     def stop(self):
